@@ -6,10 +6,10 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined'
 import SupportOutlinedIcon from '@mui/icons-material/SupportOutlined'
 
 // COMPONENTS
-import Dashboard from '~/pages/dashboard'
-import Campaigns from '~/pages/campaigns'
-import Contacts from '~/pages/contacts'
-import TheSidebar from '~/components/Layout/TheSidebar'
+import Dashboard from './pages/dashboard'
+import Campaigns from './pages/campaigns'
+import Contacts from './pages/contacts'
+import TheSidebar from './components/Layout/TheSidebar'
 
 // STYLES
 import './assets/App.css'
