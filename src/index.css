@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply px-6 max-w-6xl mx-auto;
+}
+
+.menu-item {
+  @apply flex items-center h-8 rounded hover:bg-cyan-50 px-4 gap-1;
+}
+
+.menu-item p {
+  @apply text-slate-800;
+}
+
+.menu-item p {
+  @apply text-slate-800 text-sm;
+}
+.menu-item svg {
+  @apply text-slate-500;
+}
+
+.menu-item.active {
+  @apply bg-cyan-50;
+}
+
+.menu-item:hover p,
+.menu-item.active p {
+  @apply text-cyan-600;
+}
+.menu-item:hover svg,
+.menu-item.active svg {
+  @apply text-cyan-900;
+}
