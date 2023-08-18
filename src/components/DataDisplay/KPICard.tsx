@@ -25,7 +25,7 @@ const KPICard = ({
   return (
     <div className="border border-slate-200 rounded p-4">
       <div className="flex items-center text-slate-500">
-        <p className="flex-auto">{title}</p>
+        <p className="flex-auto text-sm">{title}</p>
         <Dropdown>
           <MenuButton
             slots={{ root: IconButton }}
@@ -40,7 +40,7 @@ const KPICard = ({
         </Dropdown>        
       </div>
       <div className="flex items-center mt-2">
-        <p className="text-2xl flex-auto font-medium text-slate-900">{mainKpi}{percentage && '%'}</p>
+        <p className="text-xl flex-auto font-medium text-slate-900">{mainKpi}{percentage && '%'}</p>
         <Chip color="success" size="sm">{trend * 100}%</Chip>
       </div>
     </div>
