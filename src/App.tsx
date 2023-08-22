@@ -41,7 +41,7 @@ function App() {
               onClick={() => setShowMobileSidebar(!showMobileSidebar)}
             />
             <Link to="/">
-              <img className="w-32" src="/logo.png" alt="Email APP Logo" />
+              <img className="w-28" src="/logo.png" alt="Email APP Logo" />
             </Link>
           </div>
           <div className="text-slate-500 flex gap-2">
