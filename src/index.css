@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-  @apply px-6 max-w-6xl mx-auto;
+  @apply px-6 max-w-7xl mx-auto;
 }
 
 .menu-item {
